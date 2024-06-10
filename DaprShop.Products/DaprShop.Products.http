@@ -1,0 +1,6 @@
+@DaprShop.Products_HostAddress = http://localhost:5279
+
+GET {{DaprShop.Products_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34909.67
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprShop.AppHost", "DaprShop.AppHost\DaprShop.AppHost.csproj", "{BD4EADC2-E518-4A9C-A270-26770DE36C70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprShop.ServiceDefaults", "DaprShop.ServiceDefaults\DaprShop.ServiceDefaults.csproj", "{EDEC8EBC-B1A4-4460-93FC-68C89D2DD64A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprShop.ShoppingCart", "DaprShop.ShoppingCart\DaprShop.ShoppingCart.csproj", "{2BA79FA7-3084-4618-887E-BC93037A0840}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprShop.Orders", "DaprShop.Orders\DaprShop.Orders.csproj", "{A6863CD6-F64A-473E-8DA0-BBA60678EF93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprShop.Contracts", "DaprShop.Contracts\DaprShop.Contracts.csproj", "{4858582A-AB2D-453D-92FC-8710EB5C29E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaprShop.Products", "DaprShop.Products\DaprShop.Products.csproj", "{19DF4748-4E40-4D5E-BD4C-12E94401D2FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{094AA17C-4A58-4E83-87A7-FF9FA8202B48}"
+	ProjectSection(SolutionItems) = preProject
+		dapr\cosmos-statestore.yaml = dapr\cosmos-statestore.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD4EADC2-E518-4A9C-A270-26770DE36C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4EADC2-E518-4A9C-A270-26770DE36C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4EADC2-E518-4A9C-A270-26770DE36C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4EADC2-E518-4A9C-A270-26770DE36C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEC8EBC-B1A4-4460-93FC-68C89D2DD64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEC8EBC-B1A4-4460-93FC-68C89D2DD64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEC8EBC-B1A4-4460-93FC-68C89D2DD64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEC8EBC-B1A4-4460-93FC-68C89D2DD64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA79FA7-3084-4618-887E-BC93037A0840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA79FA7-3084-4618-887E-BC93037A0840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA79FA7-3084-4618-887E-BC93037A0840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA79FA7-3084-4618-887E-BC93037A0840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6863CD6-F64A-473E-8DA0-BBA60678EF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6863CD6-F64A-473E-8DA0-BBA60678EF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6863CD6-F64A-473E-8DA0-BBA60678EF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6863CD6-F64A-473E-8DA0-BBA60678EF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4858582A-AB2D-453D-92FC-8710EB5C29E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4858582A-AB2D-453D-92FC-8710EB5C29E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4858582A-AB2D-453D-92FC-8710EB5C29E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4858582A-AB2D-453D-92FC-8710EB5C29E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DF4748-4E40-4D5E-BD4C-12E94401D2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DF4748-4E40-4D5E-BD4C-12E94401D2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DF4748-4E40-4D5E-BD4C-12E94401D2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DF4748-4E40-4D5E-BD4C-12E94401D2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {703C4A6A-B910-4A7F-8A4C-9651120B57DC}
+	EndGlobalSection
+EndGlobal
